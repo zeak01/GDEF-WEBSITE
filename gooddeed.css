@@ -71,18 +71,18 @@ main{
     background-color: white;
 }
 .hero_title{
-    width: 20%;
-    height: 50%;
+    width: 50%;
+    height: 100%;
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 40p
+    gap: 40px;
 }
 .hero_title h1{
-    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
     letter-spacing: -2px;
 }
 .hero_title p{
