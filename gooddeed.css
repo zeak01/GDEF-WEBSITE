@@ -27,8 +27,8 @@ header{
     left: 0;
 }
 header img{
-    width: 10px;
-    height: 10px;
+    width: 50px;
+    height: 50px;
 }
 header nav {
     display: flex;
@@ -46,9 +46,9 @@ header nav a:hover{
 }
 header button{
     padding: 10px 20px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     border: none;
@@ -58,28 +58,21 @@ header button{
 /* MAIN SECTION */
 main{
     width: 100%;
-    height: 100%;
+    height: 250%;
 }
 
 .hero_section{
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     padding: 10px 40%;
-    align-items: right;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     background-color: white;
 }
 .hero_title{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    padding: 0px 20px;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
+    width: 20%;
+    height: 50%;
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
