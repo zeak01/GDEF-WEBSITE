@@ -5,10 +5,9 @@
 }
 
 body{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: White;
-    position: relative;
     overflow-x: hidden;    
 }
 a{
@@ -58,16 +57,15 @@ header button{
 /* MAIN SECTION */
 main{
     width: 100%;
-    height: 250%;
-}
-
-.hero_section{
-    width: 100%;
     height: 100%;
+}
+.hero_section{
     display: flex;
-    padding: 10px 40%;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 40%;
     background-color: white;
 }
 .hero_title{
@@ -102,9 +100,6 @@ main{
 }
 .hero_image{
     width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;   
 }
   
