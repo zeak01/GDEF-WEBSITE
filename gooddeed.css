@@ -62,12 +62,12 @@ main{
 }
 
 .hero_section{
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     padding: 10px 40%;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: left;
     background-color: white;
 }
 .hero_title{
